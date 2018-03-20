@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindNextBiggerNumberLib", "FindNextBiggerNumberLib\FindNextBiggerNumberLib.csproj", "{60FC093A-7090-4D34-B8E7-D870C0DA07A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindNextBiggerNumberLib.NUnitTests", "FindNextBiggerNumberLib.NUnitTests\FindNextBiggerNumberLib.NUnitTests.csproj", "{9234857F-4F00-4F20-B146-E773564256A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60FC093A-7090-4D34-B8E7-D870C0DA07A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60FC093A-7090-4D34-B8E7-D870C0DA07A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60FC093A-7090-4D34-B8E7-D870C0DA07A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60FC093A-7090-4D34-B8E7-D870C0DA07A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9234857F-4F00-4F20-B146-E773564256A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9234857F-4F00-4F20-B146-E773564256A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9234857F-4F00-4F20-B146-E773564256A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9234857F-4F00-4F20-B146-E773564256A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F279531-1484-4CDB-95FE-09C5BCAF012B}
+	EndGlobalSection
+EndGlobal
