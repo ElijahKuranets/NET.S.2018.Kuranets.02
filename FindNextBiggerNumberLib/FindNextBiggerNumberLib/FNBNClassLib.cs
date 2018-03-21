@@ -23,7 +23,7 @@ namespace FindNextBiggerNumberLib
             char[] numberIsCharArray = number.ToString().ToCharArray();
 
             bool OrderByDescending = true;
-            for (var i = 0; i < numberIsCharArray.Length - 1; i++)
+            for (int i = 0; i < numberIsCharArray.Length - 1; i++)
 
                 if (numberIsCharArray[i] < numberIsCharArray[i + 1])
                 {
@@ -34,10 +34,10 @@ namespace FindNextBiggerNumberLib
                 return -1;
 
 
-            for (var i = numberIsCharArray.Length - 1; i > 0; i--)
+            for (int i = numberIsCharArray.Length - 1; i > 0; i--)
                 if (numberIsCharArray[i] > numberIsCharArray[i - 1])
                 {
-                    for (var j = numberIsCharArray.Length - 1; j >= i; j--)
+                    for (int j = numberIsCharArray.Length - 1; j >= i; j--)
 
                         if (numberIsCharArray[j] > numberIsCharArray[i - 1])
                         {
